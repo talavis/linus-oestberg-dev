@@ -1,18 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div id="app">
+  <div class="container">
+    <div class="block">
+      <section class="section">
+        <p class="title">Linus Östberg</p> 
+      </section>
+    </div>
+    <div class="is-flex-direction-row is-justify-content-center">
+      <a href="https://github.com/talavis"
+         class="mx-4">
+        <b-icon pack="fab"
+                icon="github"
+                size="is-large" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/linusostberg/"
+         class="mx-4">
+        <b-icon pack="fab"
+                icon="linkedin"
+                size="is-large" />
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=nafzIpQAAAAJ"
+         class="mx-4">
+        <b-icon pack="fas"
+                icon="university"
+                size="is-large" />
+      </a>
+    </div>
   </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
