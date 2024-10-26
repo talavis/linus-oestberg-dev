@@ -1,0 +1,76 @@
+{
+  "certifications": [
+    {
+      "name": "Kubestronaut",
+      "img": "kubestronaut.png",
+      "url": "https://www.credly.com/badges/c31a5413-2d14-4474-bdf9-cc66cd44c19d/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut"],
+    },
+    {
+      "name": "Certified Kubernetes Security Specialist",
+      "img": "cks.png",
+      "url": "https://www.credly.com/badges/773242aa-7716-4abd-8187-6dfa4172ea32/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut", "Security"],
+    },
+    {
+      "name": "Certified Kubernetes Administrator",
+      "img": "cka.png",
+      "url": "https://www.credly.com/badges/b3eb5976-7f5b-4852-90bb-bbee369ba23b/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut"],
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "img": "ckad.png",
+      "url": "https://www.credly.com/badges/28013647-5858-41bd-8c33-8df66e0f4da6/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut"],
+    },
+    {
+      "name": "Kubernetes and Cloud-Native Security Associate",
+      "img": "kcsa.png",
+      "url": "https://www.credly.com/badges/58e84816-42ae-4b35-88b1-57e5db274f84/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut", "Security"],
+    },
+    {
+      "name": "Kubernetes and Cloud-Native Associate",
+      "img": "kcna.png",
+      "url": "https://www.credly.com/badges/42f0ab5f-2194-453d-a36d-ec46a0cb0427/public_url",
+      "tags": ["CNCF", "Kubernetes", "Kubestronaut"],
+    },
+    {
+      "name": "Certified in Cybersecurity",
+      "img": "cc.png",
+      "url": "https://www.credly.com/badges/e9fc7a24-6dd2-4550-bfa8-c173b40d405a/public_url",
+      "tags": ["ISC2", "Security"],
+    },
+    {
+      "name": "Prometheus Certified Associate",
+      "img": "pca.png",
+      "url": "https://www.credly.com/badges/25ba32a0-f15e-4dfc-9ed2-9c720124a598/public_url",
+      "tags": ["CNCF", "Prometheus"],
+    },
+    {
+      "name": "Rancher Deployment Specialist",
+      "img": "scds_rancher.png",
+      "url": "https://badges.suse.com/1e8f47bb-a2ff-4592-9473-dabc99c77f05",
+      "tags": ["SUSE", "Rancher", "Kubernetes"],
+    },
+    {
+      "name": "Neuvector Deployment Specialist",
+      "img": "scds_neuvector.png",
+      "url": "https://badges.suse.com/c2f7e871-3238-4361-8ef5-1ce277257f12",
+      "tags": ["SUSE", "Neuvector", "Kubernetes", "Security"],
+    },
+    {
+      "name": "Longhorn Administrator",
+      "img": "sca_longhorn.png",
+      "url": "https://badges.suse.com/9f9ff712-0315-44ed-bc5e-d1559c8af984"
+      "tags": ["SUSE", "Longhorn", "Kubernetes"],
+    },
+    {
+      "name": "Professional Scrum Master I",
+      "img": "psm1.png",
+      "url": "https://www.credly.com/badges/e4f6f411-2315-4fd4-b633-aff685232f55/public_url"
+      "tags": ["Scrum"],
+    }
+  ]
+}
