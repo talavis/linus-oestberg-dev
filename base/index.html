@@ -1,187 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title><%= productName %></title>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Linus Östberg</title>
+    <meta name="description" content="<%= productDescription %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+
+    <link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/ico" href="favicon.ico">
   </head>
   <body>
-    <div class="container">
-      <div class="section">
-        <div class="box">
-	  <div class="block">
-	    <div class="columns is-vcentered">
-	      <div class="column is-8">
-		<div class="has-text-centered">
-		  <p class="block title is-1">Linus Östberg</p>
-		  <p class="block is-size-5">Full-stack developer and Kubernetes specialist with a passion for security</p>
-		</div>
-	      </div>
-	      <div class="column">
-		<div class="columns is-centered">
-		  <div class="column is-half">
-		    <a href="https://www.credly.com/badges/c31a5413-2d14-4474-bdf9-cc66cd44c19d/public_url"
-		       target="_blank"
-		       rel="noopener">
-		      <img src="img/kubestronaut.png"
-			   alt="Kubestronaut"
-			   class="image is-128x128 mx-4"
-			   />
-		    </a>
-		  </div>
-		  <div class="column">
-		    <a href="https://www.credly.com/badges/e9fc7a24-6dd2-4550-bfa8-c173b40d405a/public_url"
-		       target="_blank"
-		       rel="noopener">
-		      <img src="img/cc.png"
-			   alt="Certified in Cybersecurity"
-			   class="image is-128x128 mx-4"
-			   />
-		    </a>
-		  </div>
-		</div>
-		<div class="block has-text-centered">
-		    <a href="https://github.com/talavis"
-		       class="mx-4"
-		       rel="noopener"
-		       target="_blank">
-		      <span class="icon is-medium">
-		      <i class="fab fa-github fa-2x"
-			 aria-hidden="true"
-			 title="Github Profile"></i>
-		      </span>
-		    </a>
-
-		  <a href="https://www.linkedin.com/in/linusostberg/"
-		     class="mx-4"
-		     rel="noopener"
-		     target="_blank">
-		    <span class="icon">
-		    <i class="fab fa-linkedin fa-2x"
-		       aria-hidden="true"
-		       title="LinkedIn Profile"></i>
-		    </span>
-		  </a>
-
-		  <a href="https://scholar.google.com/citations?user=nafzIpQAAAAJ"
-		     class="mx-4"
-		     rel="noopener"
-		     target="_blank">
-		    <span class="icon">
-		    <i class="fas fa-book fa-2x"
-		       aria-hidden="true"
-		       title="Publications (Google Scholar Profile)"></i>
-		    </span>
-		  </a>
-		</div>
-	      </div>
-	  </div>
-        </div>
-      </div>
-      
-      <div class="section is-flex is-justify-content-center">
-        <figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/c31a5413-2d14-4474-bdf9-cc66cd44c19d/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/kubestronaut.png"
-                 alt="Kubestronaut" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/773242aa-7716-4abd-8187-6dfa4172ea32/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/cks.png"
-                 alt="Certified Kubernetes Security Specialist" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/b3eb5976-7f5b-4852-90bb-bbee369ba23b/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/cka.png"
-                 alt="Certified Kubernetes Administrator" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/28013647-5858-41bd-8c33-8df66e0f4da6/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/ckad.png"
-                 alt="Certified Kubernetes Application Developer" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-3">
-          <a href="https://www.credly.com/badges/58e84816-42ae-4b35-88b1-57e5db274f84/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/kcsa.png"
-                 alt="Kubernetes and Cloud-Native Security Associate" />
-          </a>
-        </figure>
-	<figure class="image is-96x96 mx-3">
-          <a href="https://www.credly.com/badges/42f0ab5f-2194-453d-a36d-ec46a0cb0427/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/kcna.png"
-                 alt="Kubernetes and Cloud-Native Associate" />
-          </a>
-        </figure>
-      </div>
-      <div class="section is-flex is-justify-content-center">
-	<figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/e9fc7a24-6dd2-4550-bfa8-c173b40d405a/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/cc.png"
-                 alt="Certified in Cybersecurity" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-3">
-          <a href="https://www.credly.com/badges/25ba32a0-f15e-4dfc-9ed2-9c720124a598/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/pca.png"
-                 alt="Prometheus Certified Associate" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-3">
-          <a href="https://badges.suse.com/1e8f47bb-a2ff-4592-9473-dabc99c77f05"
-             target="_blank"
-             rel="noopener">
-            <img src="img/scds_rancher.png"
-                 alt="Rancher Deployment Specialist" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-3">
-          <a href="https://badges.suse.com/c2f7e871-3238-4361-8ef5-1ce277257f12"
-             target="_blank"
-             rel="noopener">
-            <img src="img/scds_neuvector.png"
-                 alt="Neuvector Deployment Specialist" />
-          </a>
-        </figure>
-        <figure class="image is-96x96 mx-3">
-          <a href="https://badges.suse.com/9f9ff712-0315-44ed-bc5e-d1559c8af984"
-             target="_blank"
-             rel="noopener">
-            <img src="img/sca_longhorn.png"
-                 alt="Longhorn Administrator" />
-          </a>
-        </figure>
-	<figure class="image is-96x96 mx-4">
-          <a href="https://www.credly.com/badges/e4f6f411-2315-4fd4-b633-aff685232f55/public_url"
-             target="_blank"
-             rel="noopener">
-            <img src="img/psm1.png"
-                 alt="Professional Scrum Master I" />
-          </a>
-        </figure>
-
-      </div>
-    </div>
+    <!-- quasar:entry-point -->
   </body>
 </html>

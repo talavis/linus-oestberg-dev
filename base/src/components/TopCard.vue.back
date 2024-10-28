@@ -1,0 +1,42 @@
+<template>
+  <q-card
+    class="my-card shadow-7 q-ma-xl"
+    style="background: #fafafa"
+    >
+    <q-card-section
+      class="q-ma-lg"
+      style="max-width: 650pt">
+      <div class="row">
+	<div class="col-6 col-md-6 col-sm-12 col-xs-12 column justify-evenly q-my-md">
+	  <p class="col-4 text-h3 q-mb-md">Linus Östberg</p>
+	  <p class="col-4 text-h5">Full-stack developer and Kubernetes specialist with a passion for security</p>
+	</div>
+	<div class="col-6 col-md-6 col-xs-12 flex flex-center">
+	  <q-img
+	    class="q-mx-auto"
+	    alt="Kubestronaut"
+	    src="~assets/kubestronaut.png"
+	    style="width: 175px; height: 175px"
+	    >
+	  </q-img>
+	  <q-img
+	    class="q-mx-auto"
+	    alt="Certified in Cybersecurity"
+	    src="~assets/cc.png"
+	    style="width: 175px; height: 175px"
+	    >
+	  </q-img>
+	</div>
+      </div>
+    </q-card-section>
+    <q-card-actions>
+      
+    </q-card-actions>
+  </q-card>
+</template>
+
+<script setup>
+defineOptions({
+  name: 'TopCard'
+});
+</script>
