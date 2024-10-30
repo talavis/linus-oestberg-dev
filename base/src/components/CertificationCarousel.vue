@@ -116,6 +116,7 @@ import psmUrl from '../assets/psm1.png'
 import kubestronautUrl from '../assets/kubestronaut.png'
 import scaLonghornUrl from '../assets/sca_longhorn.png'
 import scdsRancherUrl from '../assets/scds_rancher.png'
+import scdsNeuvectorUrl from '../assets/scds_neuvector.png'
 import scaNeuvectorUrl from '../assets/sca_neuvector.png'
 
 defineOptions({
