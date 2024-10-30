@@ -116,7 +116,7 @@ import psmUrl from '../assets/psm1.png'
 import kubestronautUrl from '../assets/kubestronaut.png'
 import scaLonghornUrl from '../assets/sca_longhorn.png'
 import scdsRancherUrl from '../assets/scds_rancher.png'
-import scdsNeuvectorUrl from '../assets/scds_neuvector.png'
+import scaNeuvectorUrl from '../assets/sca_neuvector.png'
 
 defineOptions({
   name: 'CertificationCarousel',
@@ -144,6 +144,7 @@ const certImgMap = {
   "sca_longhorn.png": scaLonghornUrl,
   "scds_rancher.png": scdsRancherUrl,
   "scds_neuvector.png": scdsNeuvectorUrl,
+  "sca_neuvector.png": scaNeuvectorUrl,
 }
 
 for (let pos in certData["certifications"]) {
