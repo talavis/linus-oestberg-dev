@@ -106,6 +106,7 @@
 import { ref, computed } from 'vue'
 import certData from 'assets/certs.json'
 import ccUrl from '../assets/cc.png'
+import ccskv5Url from '../assets/ccskv5.png'
 import cksUrl from '../assets/cks.png'
 import ckaUrl from '../assets/cka.png'
 import ckadUrl from '../assets/ckad.png'
@@ -134,6 +135,7 @@ const slideOptions = ref([
 
 const certImgMap = {
   "cc.png": ccUrl,
+  "ccskv5.png": ccskv5Url,
   "cka.png": ckaUrl,
   "ckad.png": ckadUrl,
   "cks.png": cksUrl,
