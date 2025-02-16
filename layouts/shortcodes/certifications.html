@@ -1,0 +1,6 @@
+<div style="display: flex; flex-wrap: wrap;">
+{{ range .Site.Data.certs.certifications }}
+<a href="{{ .url }}">
+<img src="/certimg/{{ .img }}" title="{{ .name }}" alt="{{ .name }}" width="130px"/></a>
+{{ end }}
+</div>

@@ -1,0 +1,3 @@
+{{ range .Site.Data.certs.certifications }}
+<p>{{ .name }}</p>
+{{ end }}

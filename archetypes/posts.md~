@@ -1,0 +1,22 @@
+---
+date: '{{ .Date }}'
+draft: true
+title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+author: ["Linus Östberg"]
+description: "Short description."
+summary: "Short summary."
+tags: ["snacka kubernetes", "security", "kubernetes", "cosign", "sigstore", "supply chain security"]
+categories: ["snacka kubernetes", "security", "kubernetes"]
+series: ["Snacka Kubernetes"]
+ShowToc: true
+TocOpen: true
+---
+
+
+---
+
+title: "Code Syntax Guide"
+date: "2019-03-10"
+description: "Sample article showcasing basic code syntax and formatting for HTML elements."
+summary: "Sample article showcasing basic code syntax and formatting for HTML elements."
+---

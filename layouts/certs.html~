@@ -1,0 +1,7 @@
+<!-- Data is in /data/source.json -->
+{{ range .Site.Data.certs.certifications }}
+{{ range .names }}
+<!-- person_name -->
+<p>{{ .identifier.person_name }}</p>
+{{ end }}
+{{ end }}
