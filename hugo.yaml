@@ -19,7 +19,7 @@ params:
   ShowShareButtons: false
   ShareButtons: ["linkedin"]
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
@@ -57,11 +57,6 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/talavis/linus-oestberg-dev/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   fuseOpts:
     isCaseSensitive: false

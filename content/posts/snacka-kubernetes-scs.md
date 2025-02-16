@@ -2,8 +2,8 @@
 date: '2025-02-16T07:57:14+01:00'
 title: 'Snacka Kubernetes - Supply Chain Security'
 author: ["Linus Östberg"]
-description: "A short overview of image and git commit signing."
-summary: "Short summary."
+description: 'A summary of my "Snacka Kubernetes - Supply Chain Security" presentation, with an overview of image and git commit signing.'
+summary: "A short overview of image and git commit signing."
 tags:
   - "security"
   - "snacka kubernetes"
@@ -18,9 +18,7 @@ series:
   - "Snacka Kubernetes"
 ---
 
-[Presentation](https://www.youtube.com/watch?v=i7pjf3Tnfxk) (in Swedish)
-
-As the Snacka Kubernetes presentation was live-streamed on February 14th, it can also be described as "why you should always sign your love greetings".
+Snacka Kubernetes is a series of webinars presented by [Conoa](https://www.conoa.se/). This is a summary of a [webinar](https://www.youtube.com/watch?v=i7pjf3Tnfxk) (in Swedish) I presented on Febuary 14th. As it was live-streamed on February 14th, the demo had a simple Valentine theme and could be described as "why you should always sign your love greetings".
 
 Most people do dot verify the source of their images. It means that anyone who get write access to the container registry can freely replace the tagged images with their own. Later, when e.g. a Kubernetes cluster pulls the image, the replaced image will be used in place of the real one.
 
@@ -45,4 +43,4 @@ git config --global user.signingkey ~/.ssh/keyname.pub
 
 Sign commits using `git commit -S`, or sign commits automatically by setting `git config --global commit.gpgsign true`.
 
-If you use Github, you can associate the SSH public key with your account to get a "Verified" marker on your signed commits. Any incorrectly signed (or optionally also unsigned) commits have an "unverified" marker.
+If you use Github, you can [associate the SSH public key with your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to get a "Verified" marker on your signed commits. Any incorrectly signed (or optionally also unsigned) commits will have an "unverified" marker.
