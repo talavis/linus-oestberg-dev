@@ -6,8 +6,15 @@
     <description>Recent content in Snacka Kubernetes on Linus Östberg</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2025 07:57:14 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 17:08:33 +0100</lastBuildDate>
     <atom:link href="https://linus.oestberg.dev/tags/snacka-kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snacka Kubernetes Neuvector</title>
+      <link>https://linus.oestberg.dev/posts/snacka-kubernetes-neuvector/</link>
+      <pubDate>Thu, 20 Feb 2025 17:08:33 +0100</pubDate>
+      <guid>https://linus.oestberg.dev/posts/snacka-kubernetes-neuvector/</guid>
+      <description>A summary of my &amp;#34;Snacka Kubernetes - Neuvector i praktionen&amp;#34; presentation, covering some of the things I consider important when running Neuvector in production.</description>
+    </item>
     <item>
       <title>Snacka Kubernetes - Supply Chain Security</title>
       <link>https://linus.oestberg.dev/posts/snacka-kubernetes-scs/</link>

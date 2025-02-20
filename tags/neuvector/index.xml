@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kubernetes on Linus Östberg</title>
-    <link>https://linus.oestberg.dev/tags/kubernetes/</link>
-    <description>Recent content in Kubernetes on Linus Östberg</description>
+    <title>Neuvector on Linus Östberg</title>
+    <link>https://linus.oestberg.dev/tags/neuvector/</link>
+    <description>Recent content in Neuvector on Linus Östberg</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Feb 2025 17:08:33 +0100</lastBuildDate>
-    <atom:link href="https://linus.oestberg.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://linus.oestberg.dev/tags/neuvector/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snacka Kubernetes Neuvector</title>
       <link>https://linus.oestberg.dev/posts/snacka-kubernetes-neuvector/</link>
       <pubDate>Thu, 20 Feb 2025 17:08:33 +0100</pubDate>
       <guid>https://linus.oestberg.dev/posts/snacka-kubernetes-neuvector/</guid>
       <description>A summary of my &amp;#34;Snacka Kubernetes - Neuvector i praktionen&amp;#34; presentation, covering some of the things I consider important when running Neuvector in production.</description>
-    </item>
-    <item>
-      <title>Snacka Kubernetes - Supply Chain Security</title>
-      <link>https://linus.oestberg.dev/posts/snacka-kubernetes-scs/</link>
-      <pubDate>Sun, 16 Feb 2025 07:57:14 +0100</pubDate>
-      <guid>https://linus.oestberg.dev/posts/snacka-kubernetes-scs/</guid>
-      <description>A summary of my &amp;#34;Snacka Kubernetes - Supply Chain Security&amp;#34; presentation, with an overview of image and git commit signing.</description>
     </item>
   </channel>
 </rss>
