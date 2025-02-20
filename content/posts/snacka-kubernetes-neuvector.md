@@ -1,6 +1,6 @@
 ---
 date: '2025-02-20T17:08:33+01:00'
-title: 'Snacka Kubernetes Neuvector'
+title: 'Snacka Kubernetes - Neuvector'
 author: ["Linus Östberg"]
 description: 'A summary of my "Snacka Kubernetes - Neuvector i praktionen" presentation, covering some of the things I consider important when running Neuvector in production.'
 summary: "What to think of when running Neuvector in production."
