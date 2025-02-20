@@ -9,6 +9,7 @@ tags:
   - "snacka kubernetes"
   - "supply chain security"
   - "cosign"
+  - "kyverno"
   - "sigstore"
   - "kubernetes"
 categories: 
@@ -18,7 +19,7 @@ series:
   - "Snacka Kubernetes"
 ---
 
-Snacka Kubernetes is a series of webinars presented by [Conoa](https://www.conoa.se/). This is a summary of a [webinar](https://www.youtube.com/watch?v=i7pjf3Tnfxk) (in Swedish) I presented on Febuary 14th. As it was live-streamed on February 14th, the demo had a simple Valentine theme and was advertised as "why you should always sign your love greetings".
+Snacka Kubernetes is a series of webinars presented by [Conoa](https://www.conoa.se/). This is a summary of a [webinar](https://www.youtube.com/watch?v=i7pjf3Tnfxk) (in Swedish) I presented on Febuary 14th 2025. As it was live-streamed on February 14th, the demo had a simple Valentine theme and was advertised as "why you should always sign your love greetings".
 
 Most people do not verify the source of their images. It means that anyone who get write access to the container registry can freely replace the tagged images with their own. Later, when e.g. a Kubernetes cluster pulls the image, the replaced image will be used in place of the real one.
 
