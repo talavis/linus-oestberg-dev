@@ -79,6 +79,12 @@
       "tags": ["SUSE", "Longhorn", "Kubernetes"]
     },
     {
+      "name": "SUSE Edge Deployment Specialist",
+      "img": "scds_edge.png",
+      "url": "https://badges.suse.com/83339f3e-3ba3-4d19-8743-971aa5832790",
+      "tags": ["SUSE", "Edge", "Kubernetes"]
+    },
+    {
       "name": "Suse Linux Enterprise 15 Administrator",
       "img": "sca_sles15.png",
       "url": "https://badges.suse.com/5b3d0ca6-85c1-4476-a002-8b9a4200da6f",
