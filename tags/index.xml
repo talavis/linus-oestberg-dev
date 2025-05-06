@@ -4,15 +4,22 @@
     <title>Tags on Linus Östberg</title>
     <link>https://linus.oestberg.dev/tags/</link>
     <description>Recent content in Tags on Linus Östberg</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Feb 2025 17:08:33 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 16:20:57 +0200</lastBuildDate>
     <atom:link href="https://linus.oestberg.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes</title>
       <link>https://linus.oestberg.dev/tags/kubernetes/</link>
-      <pubDate>Thu, 20 Feb 2025 17:08:33 +0100</pubDate>
+      <pubDate>Tue, 06 May 2025 16:20:57 +0200</pubDate>
       <guid>https://linus.oestberg.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux-Foundation</title>
+      <link>https://linus.oestberg.dev/tags/linux-foundation/</link>
+      <pubDate>Tue, 06 May 2025 16:20:57 +0200</pubDate>
+      <guid>https://linus.oestberg.dev/tags/linux-foundation/</guid>
       <description></description>
     </item>
     <item>
