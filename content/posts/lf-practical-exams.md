@@ -22,7 +22,9 @@ Using a M2 Macbook Pro 13 with the latest 15.4.1 macOS.
 * Unable to write any special characters (instead having to use the virtual keyboard)
 * No graphical bugs in the PSI browser
 
-## Linux (Ubuntu 24.04)
+## Linux
+
+Using a freshly installed Kubuntu 24.04 on a Dell XPS 13.
 
 * Manual installation
 * Requires reconfiguration of AppArmor to avoid PSI Browser crashing during install:
