@@ -61,6 +61,12 @@
       "tags": ["SUSE", "Rancher", "Kubernetes"]
     },
     {
+      "name": "Rancher Administrator",
+      "img": "sca_rancher.png",
+      "url": "https://badges.suse.com/b1cd05f9-9a2a-4f28-b57f-446428bdc272",
+      "tags": ["SUSE", "Rancher", "Kubernetes"]
+    },
+    {
       "name": "Neuvector Deployment Specialist",
       "img": "scds_neuvector.png",
       "url": "https://badges.suse.com/c2f7e871-3238-4361-8ef5-1ce277257f12",
