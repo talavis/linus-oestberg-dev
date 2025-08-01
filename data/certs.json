@@ -91,6 +91,12 @@
       "tags": ["SUSE", "Edge", "Kubernetes"]
     },
     {
+      "name": "SUSE AI Deployment Specialist",
+      "img": "scds_ai.png",
+      "url": "https://badges.suse.com/0e29343d-7738-46bf-9db3-50be26c085d7#acc.nXCTQKlm",
+      "tags": ["SUSE", "AI", "Kubernetes"]
+    },
+    {
       "name": "Suse Linux Enterprise 15 Administrator",
       "img": "sca_sles15.png",
       "url": "https://badges.suse.com/5b3d0ca6-85c1-4476-a002-8b9a4200da6f",
