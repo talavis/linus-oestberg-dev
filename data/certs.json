@@ -97,6 +97,12 @@
       "tags": ["SUSE", "AI", "Kubernetes"]
     },
     {
+      "name": "SCA in SUSE Observability",
+      "img": "sca_observability.png",
+      "url": "https://badges.suse.com/20628c77-aff8-4fc5-b679-5319d5566225",
+      "tags": ["SUSE", "AI", "Kubernetes"]
+    },
+    {
       "name": "Suse Linux Enterprise 15 Administrator",
       "img": "sca_sles15.png",
       "url": "https://badges.suse.com/5b3d0ca6-85c1-4476-a002-8b9a4200da6f",
