@@ -100,7 +100,13 @@
       "name": "SCA in SUSE Observability",
       "img": "sca_observability.png",
       "url": "https://badges.suse.com/20628c77-aff8-4fc5-b679-5319d5566225",
-      "tags": ["SUSE", "AI", "Kubernetes"]
+      "tags": ["SUSE", "Observability", "Kubernetes"]
+    },
+    {
+      "name": "SCDS in SUSE Multi-Linux Manager",
+      "img": "scds_mlm.png",
+      "url": "https://badges.suse.com/2f4b99bc-4c0a-4712-8aa5-665d3f9ded36",
+      "tags": ["SUSE", "MLM", "SUSE Manager"]
     },
     {
       "name": "Suse Linux Enterprise 15 Administrator",
