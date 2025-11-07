@@ -109,6 +109,12 @@
       "tags": ["SUSE", "MLM", "SUSE Manager"]
     },
     {
+      "name": "SCA in SUSE Multi-Linux Manager",
+      "img": "sca_mlm.png",
+      "url": "https://badges.suse.com/48af3d56-89ec-49e1-a657-9ce22812e5bd",
+      "tags": ["SUSE", "MLM", "SUSE Manager"]
+    },
+    {
       "name": "Suse Linux Enterprise 15 Administrator",
       "img": "sca_sles15.png",
       "url": "https://badges.suse.com/5b3d0ca6-85c1-4476-a002-8b9a4200da6f",
