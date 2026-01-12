@@ -1,8 +1,8 @@
 ---
 date: '2026-01-12T11:10:00+01:00'
-title: 'Container Lifecycle Hooks Can Block Pod Creation and Termination'
+title: 'Container Lifecycle Hooks May Block Pod Creation and Termination'
 author: ["Linus Östberg"]
-description: 'An example of an issue that may be caused by handling container lifecycle hooks in a suboptimal way'
+description: 'An example of an issue with blocked pod creation and termination that may be caused by handling container lifecycle hooks in a suboptimal way.'
 summary: 'Container lifecycles hooks can make sure commands run before and after container creation. However, they may block container start and termination indefinitely, and you should be very careful when you use them.'
 tags:
   - "containers"
@@ -14,7 +14,7 @@ categories:
 
 During one of my assignments as a consultant, a team ended up with a misbehaving pod. It was perpetually stuck in the `ContainerCreating` state, and when deleted it instead got stuck in the `Terminating` state. When it had been in that state for more than 24 hours, my help was requested.
 
-*The examples below is a recreation done using my Rancher Desktop setup*
+*The examples below is a recreation done using my Rancher Desktop setup, it does not match the original setup.*
 
 As I started off with a pod in the `Terminating` state, my first thought was to investigate logs and to check whether there were any finalizers; nothing. Finally I logged into the node and manually deleted the container, which in turn killed the pod. Instead I got a new pod that got stuck in the `ContainerCreating`state. Killing that pod gave me a container stuck in the `terminating` state, and I was back where I started.
 
@@ -58,16 +58,20 @@ $ docker logs 18d35d234415
 At this stage, I started looking more thoroughly at the pod definition and a couple of rows caught my attention:
 
 ```
-lifecycle:
-  postStart:
-	exec:
-	  command: ...
-  preStop:
-	exec:
-	  command: ...
+spec:
+  containers:
+  - lifecycle:
+      postStart:
+		exec:
+		  command: ...
+	  preStop:
+		exec:
+		  command: ...
+  /.../
+  terminationGracePeriodSeconds: 432000
 ```
 
-The pod was using [container lifecycle hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/). These hooks are run at certain points in the container lifecycle. The `postStart` hook runs after the container has started, but stops the pod from reaching the state `Running` until it has finished. The `preStop` hook runs before the container is terminated, and can thus block pod termination.
+The pod was using [container lifecycle hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/). These hooks are run at certain points in the container lifecycle. The `postStart` hook runs after the container has started, but stops the pod from reaching the state `Running` until it has finished. The `preStop` hook runs before the container is terminated, and may thus block pod termination. The `preStop hook` is overridden by `terminationGracePeriodSeconds`, so if the the grace period ends before the `preStop` command is finished, the pod/container will still terminate.
 
 In the teams case some data failed to sync, and thus the `postStart` and `preStop` commands never terminated, blocking the pod start and termination. After the data was synced correctly, everything worked as intended.
 
