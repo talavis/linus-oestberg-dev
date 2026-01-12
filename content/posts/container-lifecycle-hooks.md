@@ -62,11 +62,11 @@ spec:
   containers:
   - lifecycle:
       postStart:
-		exec:
-		  command: ...
-	  preStop:
-		exec:
-		  command: ...
+        exec:
+          command: ...
+      preStop:
+        exec:
+          command: ...
   /.../
   terminationGracePeriodSeconds: 432000
 ```
