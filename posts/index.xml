@@ -4,10 +4,17 @@
     <title>Posts on Linus Östberg</title>
     <link>https://linus.oestberg.dev/posts/</link>
     <description>Recent content in Posts on Linus Östberg</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.156.0</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 12 Jan 2026 11:10:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 13:10:00 +0100</lastBuildDate>
     <atom:link href="https://linus.oestberg.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploiting Access to the /var/log Folder</title>
+      <link>https://linus.oestberg.dev/posts/exploiting-var-log-permissions/</link>
+      <pubDate>Wed, 25 Feb 2026 13:10:00 +0100</pubDate>
+      <guid>https://linus.oestberg.dev/posts/exploiting-var-log-permissions/</guid>
+      <description>A way to exploit access to the /var/log to obtain admin rights in a cluster.</description>
+    </item>
     <item>
       <title>Container Lifecycle Hooks May Block Pod Creation and Termination</title>
       <link>https://linus.oestberg.dev/posts/container-lifecycle-hooks/</link>
