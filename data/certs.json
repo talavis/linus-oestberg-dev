@@ -49,6 +49,12 @@
       "tags": ["Security",  "Cloud"]
     },
     {
+      "name": "Red Hat Certified System Administrator in OpenShift",
+      "img": "red-hat-certified-system-administrator-in-openshift.png",
+      "url": "https://www.credly.com/badges/95196314-d6d8-4052-9705-5fa6b64e0ac7/public_url",
+      "tags": ["Red Hat",  "OpenShift", "Kubernetes"]
+    },
+    {
       "name": "Prometheus Certified Associate",
       "img": "pca.png",
       "url": "https://www.credly.com/badges/25ba32a0-f15e-4dfc-9ed2-9c720124a598/public_url",
