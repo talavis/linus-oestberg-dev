@@ -49,6 +49,12 @@
       "tags": ["Security",  "Cloud"]
     },
     {
+      "name": "Certificate of Competence in Zero Trust",
+      "img": "cczt.png",
+      "url": "https://www.credly.com/badges/9f91ca80-047e-4126-95ae-1aa3145b2bd5/public_url",
+      "tags": ["Security",  "Zero Trust"]
+    },
+    {
       "name": "Red Hat Certified Engineer in OpenShift",
       "img": "red-hat-certified-engineer-in-openshift.png",
       "url": "https://www.credly.com/badges/da0b8af4-035f-4a84-8886-9185788d914c/public_url",
